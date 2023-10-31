@@ -1,47 +1,32 @@
-# Recrutamento - Estágio Desenvolvedor SQL
+# COMO EXECUTAR OS ARQUIVOS 
+ Os Aquivos estão comentados.
+ Abaixo instruções para executa-los.
+ 
+## Para executar o arquivo em "Desafio_Triggo.ipynb" será necessário:
 
-Olá candidato, tudo bem? Pronto para participar de nosso processo seletivo para o Programa de Estágio triggo.ai?
-
-## Requisitos:
-
-- Noções de porgramação;
-- Python;
-- SQL;
+-Acessar o Link do Google Colab https://colab.research.google.com/
+-Abrir Notebook
+-Upload 
+-Abrir o arquivo "Desafio_Triggo.ipynb"
+-Em seguida, na aba lateral, clique em "Arquivos" e faça o upload da base "DB_Teste"
 
 
-### Desafio:
+## Para executar o arquivo "SQL.sql" será necessário:
 
-Uma empresa sediada em São Paulo que trabalha TI precisa descrever algumas métricas sobre as vendas ocorridas entre 2018 e 2021. O time de BI tem as informações contidas no CSV (Anexar CSV).
+-Acessar o Link https://sqliteonline.com/
+-Clicar na opção SQLite na barra lateral
+-Ir em File e abrir um SQL
+-Selecionar o arquivo "SQL.sql"
+-Clicar novamente em File 
+-Clicar em Import no Menu superior
+-Selecionar o arquivo"DB_Teste"
+-Delimitar por ";"
+-Selecionar "Firt Line" no Campo "collum name"
+-Clicar em "OK" e em seguida clicar em "Run"
 
-Implemente em python um programa que tenha como entradas o arquivo CSV e realize as seguintes tarefas:
-
-	Construa uma tabela auxiliar que sumarize o valor vendido por cada vendedor, ordenando do maior para o menor;
-
-	Imprima e identifica qual foi o cliente responsável pela venda com maior valor e com menor valor;
-
-	Imprima valor médio por Tipo de venda (Serviços, Licenciamento, Produtos)
-
-	Imprima o número de vendas realizada por cliente;
-
-Em SQL, construa as queries que irão identificar os seguintes cenários (para este desafio, pode-se utilizar qualquer banco de dados relacional - ex: MySQL, SQL Server, Snowflake, Oracle, etc):
-
-	- Construa o modelo de relacionamento com as categorias utilizadas em todos os campos do arquivo CSV (colocar imagem);
-	- Listar todas as vendas (ID) e seus respectivos clientes apenas no ano de 2020
-	- Listar a equipe de cada vendedor
-	- Construir uma tabela que avalia trimestralmente o resultado de vendas e plote um gráfico deste histórico.
   
-## Avaliação
+## Para exceutar o arquivo "Plot_Sql.ipynb" 
 
-O que vamos avaliar:
-- Boas práticas
-- Organização
-- Manutenabilidade
-- Lógica
+-Seguir os passos da execução do arquivo "Desafio_Triggo.ipynb"
 
-## Instruções
-Siga os seguintes passos para a execução do desafio:
-1. Faça o **fork** deste repositório.
-2. Implemente o desafio proposto.
-2. Crie um arquivo **PROJECT.md** com a explicação de como devemos executar o projeto e com o máximo de detalhes possível do que foi feito.
-3. Faça o **commit** no seu **fork** do repositório com os arquivos do programa que você implementou e do **PROJECT.md**.
-4. Faça um **pull-request**.
+ 
